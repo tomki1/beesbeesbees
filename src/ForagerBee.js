@@ -1,6 +1,6 @@
-// subclass of Grub
+// subclass of bee
 var ForagerBee = function(food) {
-  Grub.call(this, food);
+  Bee.call(this, food);
   this.age = 10;
   this.color = 'yellow';
   this.job = 'find pollen';
@@ -8,7 +8,7 @@ var ForagerBee = function(food) {
   this.treasureChest = [];
 };
 
-ForagerBee.prototype = Object.create(Grub.prototype); // set inheritence
+ForagerBee.prototype = Object.create(Bee.prototype); // set inheritence
 ForagerBee.prototype.constructor = ForagerBee; // set ForagerBee constructor function
 
 ForagerBee.prototype.forage = function(treasure) {

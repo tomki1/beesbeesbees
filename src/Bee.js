@@ -1,10 +1,10 @@
-// parent class Grub
-var Grub = function() {
-  this.age = 0;
-  this.color = 'pink';
-  this.food = 'jelly';
+// parent class
+var Bee = function(food) {
+  Grub.call(this, food);
+  this.age = 5;
+  this.color = 'yellow';
+  this.job = 'keep on growing';
 };
 
-Grub.prototype.eat = function() {
-
-};
+Bee.prototype = Object.create(Grub.prototype); // set inheritence
+Bee.prototype.constructor = Bee; // set Bee constructor function
