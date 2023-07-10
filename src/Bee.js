@@ -1,6 +1,6 @@
 // parent class
-var Bee = function(food) {
-  Grub.call(this, food);
+var Bee = function() {
+  Grub.call(this);
   this.age = 5;
   this.color = 'yellow';
   this.job = 'keep on growing';

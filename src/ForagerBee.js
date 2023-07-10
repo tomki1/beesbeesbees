@@ -1,6 +1,6 @@
 // subclass of bee
-var ForagerBee = function(food) {
-  Bee.call(this, food);
+var ForagerBee = function() {
+  Bee.call(this);
   this.age = 10;
   this.color = 'yellow';
   this.job = 'find pollen';

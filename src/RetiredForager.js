@@ -1,6 +1,6 @@
 // subclass of ForagerBee
-var RetiredForagerBee = function(food, eat, treasureChest) {
-  ForagerBee.call(this, food, eat, treasureChest);
+var RetiredForagerBee = function() {
+  ForagerBee.call(this);
   this.age = 40;
   this.job = 'gamble';
   this.canFly = false;

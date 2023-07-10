@@ -1,6 +1,6 @@
 // subclass of Bee
-var HoneyMakerBee = function(food, color) {
-  Bee.call(this, food);
+var HoneyMakerBee = function() {
+  Bee.call(this);
   this.age = 10;
   this.job = 'make honey';
   this.honeyPot = 0;
